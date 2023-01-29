@@ -4,6 +4,11 @@ It is a base environment for torch with GPU support (including 3090Ti!) that can
 This image requires `nvidia-driver-525` and `nvidia-docker2` installed on host. 
 WARNING! It needs ~30GB!
 
+## Download
+```bash 
+$ git clone https://github.com/ordigital/nvidia-525-cuda-11.8-python-3.10-pytorch.git && cd nvidia-525-cuda-11.8-python-3.10-pytorch
+```
+
 ## Build
 ```bash
 $ docker build -t nvidia-cuda .
